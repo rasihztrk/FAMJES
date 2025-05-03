@@ -444,14 +444,14 @@
 }
 
 
-/* 5.5 wpo-project-area-s2  */
+/* 5.5 wpo-gallery-area-s2  */
 
-.wpo-project-area-s2 {
+.wpo-gallery-area-s2 {
     &:before {
         display: none;
     }
 
-    .wpo-project-wrap .wpo-project-item .wpo-project-text h2 a {
+    .wpo-gallery-wrap .wpo-gallery-item .wpo-gallery-text h2 a {
         color: $dark-gray;
     }
 }

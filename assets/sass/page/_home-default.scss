@@ -280,11 +280,11 @@
 }
 
 
-/* 3.4 wpo-project-area */
+/* 3.4 wpo-gallery-area */
 
-.wpo-project-area,
-.wpo-project-area-s2,
-.wpo-project-area-s3 {
+.wpo-gallery-area,
+.wpo-gallery-area-s2,
+.wpo-gallery-area-s3 {
 	position: relative;
 
 	&:before {
@@ -297,11 +297,11 @@
 		background: $dark-gray;
 	}
 
-	.wpo-project-wrap {
-		.wpo-project-item {
+	.wpo-gallery-wrap {
+		.wpo-gallery-item {
 			position: relative;
 
-			.wpo-project-img {
+			.wpo-gallery-img {
 				position: relative;
 				z-index: 1;
 
@@ -341,7 +341,7 @@
 
 			}
 
-			.wpo-project-text {
+			.wpo-gallery-text {
 				z-index: 111;
 				transition: all .3s;
 				padding-top: 20px;
@@ -378,7 +378,7 @@
 			}
 
 			&:hover {
-				.wpo-project-img {
+				.wpo-gallery-img {
 					&:before {
 						opacity: .5;
 						visibility: visible;

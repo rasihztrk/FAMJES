@@ -268,7 +268,7 @@
         $(".fancybox").fancybox({
             openEffect  : "elastic",
             closeEffect : "elastic",
-            wrapCSS     : "project-fancybox-title-style"
+            wrapCSS     : "gallery-fancybox-title-style"
         });
     }
 
@@ -512,10 +512,10 @@
 
 
     /*------------------------------------------
-    project-active SLIDER
+    gallery-active SLIDER
     -------------------------------------------*/
-    if ($(".project-active").length) {
-        $(".project-active").owlCarousel({
+    if ($(".gallery-active").length) {
+        $(".gallery-active").owlCarousel({
             autoplay:false,
             smartSpeed: 300,
             margin: 30,
@@ -585,10 +585,10 @@
 
 
     /*------------------------------------------
-        = wpo-project-single-main-img
+        = wpo-gallery-single-main-img
     -------------------------------------------*/
-    if($(".wpo-project-single-main-img".length)) {
-        $(".wpo-project-single-main-img").owlCarousel({
+    if($(".wpo-gallery-single-main-img".length)) {
+        $(".wpo-gallery-single-main-img").owlCarousel({
             mouseDrag: false,
             smartSpeed: 500,
             margin: 30,
