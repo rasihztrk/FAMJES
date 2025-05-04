@@ -17,7 +17,7 @@ Version:        1.0.0
 
 3. content
    3.1 wpo-hero-slider
-   3.2 wpo-about-area
+   3.2 wpo-About Us-area
    3.3 wpo-service-area
    3.4 wpo-gallery-area
    3.5 wpo-testimonial-area
@@ -29,7 +29,7 @@ Version:        1.0.0
 4. wpo-footer
 
 5. Home-style-2
-   5.1 wpo-about-area-s2
+   5.1 wpo-About Us-area-s2
    5.2 wpo-features-area
    5.3 wpo-skill-section
    5.4 wpo-fun-fact-section
@@ -38,10 +38,10 @@ Version:        1.0.0
    5.7 wpo-blog-section-s2
 
 6. Home-style-3  
-   6.1 wpo-about-area-s3
+   6.1 wpo-About Us-area-s3
 
 7. Home-style-4 
-   7.1 wpo-about-area-s4
+   7.1 wpo-About Us-area-s4
    7.2 wpo-features-area-s2
    7.3 wpo-service-area-s2
    7.4 wpo-skill-section-s2
@@ -52,10 +52,10 @@ Version:        1.0.0
 
  8. Home-style-5
    8.1 wpo-features-area-s3
-   8.2 wpo-about-area-s5
+   8.2 wpo-About Us-area-s5
    8.3 wpo-team-section-s2
 
-9. wpo-about-section
+9. wpo-About Us-section
    9.1 wpo-fun-fact-section-s2
 
 10. wpo-service-single
@@ -996,7 +996,7 @@ img {
 ------------------------------------*/
 .blog-sidebar {
   /*** search-widget ***/
-  /*** about-widget ***/
+  /*** About Us-widget ***/
   /*** category-widget ***/
   /*** recent-post-widget ***/
   /*** instagram-widget ***/
@@ -1011,8 +1011,7 @@ img {
 }
 
 @media screen and (max-width: 992px) {
-  
-  .wpo-about-title h2 br {
+  .wpo-About Us-title h2 br {
     display: none;
     text-align: center;
   }
@@ -1073,8 +1072,8 @@ img {
   .wpo-site-footer-s2 .widget-title h3 {
     padding-bottom: 20px;
   }
-  .wpo-site-footer .about-widget ul,
-  .wpo-site-footer-s2 .about-widget ul {
+  .wpo-site-footer .About Us-widget ul,
+  .wpo-site-footer-s2 .About Us-widget ul {
     overflow: hidden;
     padding-top: 10px;
     display: flex;
@@ -1161,7 +1160,7 @@ img {
   border-radius: 6px;
   transform: translateY(-50%);
 }
-.blog-sidebar .about-widget {
+.blog-sidebar .About Us-widget {
   text-align: center;
   background-color: #f9f9f9;
   padding: 45px;
@@ -1169,36 +1168,36 @@ img {
   z-index: 1;
 }
 @media (max-width: 1200px) {
-  .blog-sidebar .about-widget {
+  .blog-sidebar .About Us-widget {
     padding: 35px;
   }
 }
-.blog-sidebar .about-widget .aw-shape {
+.blog-sidebar .About Us-widget .aw-shape {
   position: absolute;
   right: 0;
   top: 0;
   z-index: -1;
 }
-.blog-sidebar .about-widget .img-holder {
+.blog-sidebar .About Us-widget .img-holder {
   margin-bottom: 25px;
 }
-.blog-sidebar .about-widget .img-holder img {
+.blog-sidebar .About Us-widget .img-holder img {
   border-radius: 50%;
   width: 100%;
   max-width: 200px;
 }
-.blog-sidebar .about-widget ul {
+.blog-sidebar .About Us-widget ul {
   list-style: none;
   display: flex;
   justify-content: center;
 }
-.blog-sidebar .about-widget ul li {
+.blog-sidebar .About Us-widget ul li {
   margin-right: 10px;
 }
-.blog-sidebar .about-widget ul li:last-child {
+.blog-sidebar .About Us-widget ul li:last-child {
   margin-right: 0;
 }
-.blog-sidebar .about-widget ul li a {
+.blog-sidebar .About Us-widget ul li a {
   text-decoration: none;
   display: block;
   width: 40px;
@@ -1207,24 +1206,24 @@ img {
   background-color: #fff;
   border-radius: 50%;
 }
-.blog-sidebar .about-widget h4 {
+.blog-sidebar .About Us-widget h4 {
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 15px;
 }
-.blog-sidebar .about-widget p {
+.blog-sidebar .About Us-widget p {
   font-size: 15px;
   font-size: 0.8333333333rem;
   margin-bottom: 1.2em;
 }
-.blog-sidebar .about-widget a {
+.blog-sidebar .About Us-widget a {
   font-family: "Teko", sans-serif;
   font-size: 14px;
   font-size: 0.7777777778rem;
   color: #222222;
   text-decoration: underline;
 }
-.blog-sidebar .about-widget a:hover {
+.blog-sidebar .About Us-widget a:hover {
   color: #322e53;
 }
 .blog-sidebar .category-widget ul {
@@ -2194,6 +2193,10 @@ img {
   margin-right: 8px;
 }
 
+.wpo-site-header .header-right {
+  display: none;
+}
+
 .wpo-site-header .header-right .close-form .theme-btn,
 .wpo-site-header .header-right .close-form .view-cart-btn {
   padding: 10px 25px;
@@ -2865,7 +2868,7 @@ img {
   }
 }
 .wpo-site-header .navbar-header .navbar-brand img {
-  max-width: 170px;
+  max-width: 110px;
 }
 @media (max-width: 991px) {
   .wpo-site-header .navbar-collapse.collapse {
@@ -4183,8 +4186,8 @@ wpo-hero-slider-s2
     padding-left: 15px;
   }
 }
-.wpo-hero-slider-s2 .wpo-about-item,
-.wpo-hero-slider-s3 .wpo-about-item {
+.wpo-hero-slider-s2 .wpo-About Us-item,
+.wpo-hero-slider-s3 .wpo-About Us-item {
   background: #fff;
   padding: 30px 35px;
   position: absolute;
@@ -4194,32 +4197,32 @@ wpo-hero-slider-s2
   max-width: 600px;
 }
 @media (max-width: 1400px) {
-  .wpo-hero-slider-s2 .wpo-about-item,
-  .wpo-hero-slider-s3 .wpo-about-item {
+  .wpo-hero-slider-s2 .wpo-About Us-item,
+  .wpo-hero-slider-s3 .wpo-About Us-item {
     max-width: 400px;
     padding: 20px;
   }
 }
 @media (max-width: 991px) {
-  .wpo-hero-slider-s2 .wpo-about-item,
-  .wpo-hero-slider-s3 .wpo-about-item {
+  .wpo-hero-slider-s2 .wpo-About Us-item,
+  .wpo-hero-slider-s3 .wpo-About Us-item {
     display: none;
   }
 }
-.wpo-hero-slider-s2 .wpo-about-item .wpo-about-top,
-.wpo-hero-slider-s3 .wpo-about-item .wpo-about-top {
+.wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-top,
+.wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-top {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 @media (max-width: 991px) {
-  .wpo-hero-slider-s2 .wpo-about-item .wpo-about-top,
-  .wpo-hero-slider-s3 .wpo-about-item .wpo-about-top {
+  .wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-top,
+  .wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-top {
     margin-bottom: 10px;
   }
 }
-.wpo-hero-slider-s2 .wpo-about-item .wpo-about-top .wpo-about-thumb-img,
-.wpo-hero-slider-s3 .wpo-about-item .wpo-about-top .wpo-about-thumb-img {
+.wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img,
+.wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img {
   width: 60px;
   height: 60px;
   position: relative;
@@ -4229,25 +4232,25 @@ wpo-hero-slider-s2
   border-radius: 50%;
   margin-right: 20px;
 }
-.wpo-hero-slider-s2 .wpo-about-item .wpo-about-top .wpo-about-thumb-img img,
-.wpo-hero-slider-s3 .wpo-about-item .wpo-about-top .wpo-about-thumb-img img {
+.wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img img,
+.wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img img {
   border-radius: 50%;
 }
-.wpo-hero-slider-s2 .wpo-about-item .wpo-about-top .wpo-about-info,
-.wpo-hero-slider-s3 .wpo-about-item .wpo-about-top .wpo-about-info {
+.wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info,
+.wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info {
   display: flex;
   justify-content: space-between;
   flex-basis: 80%;
 }
 @media (max-width: 500px) {
-  .wpo-hero-slider-s2 .wpo-about-item .wpo-about-top .wpo-about-info,
-  .wpo-hero-slider-s3 .wpo-about-item .wpo-about-top .wpo-about-info {
+  .wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info,
+  .wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info {
     display: block;
     flex-basis: 60%;
   }
 }
-.wpo-hero-slider-s2 .wpo-about-item .wpo-about-top .wpo-about-info h2,
-.wpo-hero-slider-s3 .wpo-about-item .wpo-about-top .wpo-about-info h2 {
+.wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info h2,
+.wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info h2 {
   font-weight: 600;
   font-size: 22px;
   line-height: 28px;
@@ -4255,27 +4258,27 @@ wpo-hero-slider-s2
   margin-bottom: 3px;
   font-family: "Mulish", sans-serif;
 }
-.wpo-hero-slider-s2 .wpo-about-item .wpo-about-top .wpo-about-info span,
-.wpo-hero-slider-s3 .wpo-about-item .wpo-about-top .wpo-about-info span {
+.wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info span,
+.wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info span {
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
 }
-.wpo-hero-slider-s2 .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul,
-.wpo-hero-slider-s3 .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul {
+.wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info .wpo-About Us-info-ratting ul,
+.wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info .wpo-About Us-info-ratting ul {
   list-style: none;
   display: flex;
 }
-.wpo-hero-slider-s2 .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li,
-.wpo-hero-slider-s3 .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li {
+.wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info .wpo-About Us-info-ratting ul li,
+.wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info .wpo-About Us-info-ratting ul li {
   color: #322e53;
 }
-.wpo-hero-slider-s2 .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li + li,
-.wpo-hero-slider-s3 .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li + li {
+.wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info .wpo-About Us-info-ratting ul li + li,
+.wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info .wpo-About Us-info-ratting ul li + li {
   margin-left: 2px;
 }
-.wpo-hero-slider-s2 .wpo-about-item .wpo-about-content p,
-.wpo-hero-slider-s3 .wpo-about-item .wpo-about-content p {
+.wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-content p,
+.wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-content p {
   margin-bottom: 0;
   color: #323232;
   font-weight: 400;
@@ -4283,8 +4286,8 @@ wpo-hero-slider-s2
   line-height: 33px;
 }
 @media (max-width: 1400px) {
-  .wpo-hero-slider-s2 .wpo-about-item .wpo-about-content p,
-  .wpo-hero-slider-s3 .wpo-about-item .wpo-about-content p {
+  .wpo-hero-slider-s2 .wpo-About Us-item .wpo-About Us-content p,
+  .wpo-hero-slider-s3 .wpo-About Us-item .wpo-About Us-content p {
     font-size: 15px;
     line-height: 28px;
   }
@@ -4589,7 +4592,7 @@ wpo-hero-slider-s4
   .wpo-site-footer .wpo-upper-footer .col,
   .wpo-site-footer-s2 .wpo-upper-footer .col {
     min-height: auto;
-    margin-bottom:  0px;
+    margin-bottom: 0px;
   }
 }
 .wpo-site-footer .widget-title,
@@ -4616,52 +4619,52 @@ wpo-hero-slider-s4
 .wpo-site-footer-s2 .widget-title.logo {
   margin-bottom: 0;
 }
-.wpo-site-footer .about-widget .logo,
-.wpo-site-footer-s2 .about-widget .logo {
+.wpo-site-footer .About Us-widget .logo,
+.wpo-site-footer-s2 .About Us-widget .logo {
   font-size: 45px;
   font-family: "Teko", sans-serif;
   color: #322e53;
   line-height: 40px;
 }
 @media (max-width: 991px) {
-  .wpo-site-footer .about-widget .logo,
-  .wpo-site-footer-s2 .about-widget .logo {
+  .wpo-site-footer .About Us-widget .logo,
+  .wpo-site-footer-s2 .About Us-widget .logo {
     font-size: 40px;
   }
 }
-.wpo-site-footer .about-widget .logo span,
-.wpo-site-footer-s2 .about-widget .logo span {
+.wpo-site-footer .About Us-widget .logo span,
+.wpo-site-footer-s2 .About Us-widget .logo span {
   position: relative;
 }
-.wpo-site-footer .about-widget .logo span i,
-.wpo-site-footer-s2 .about-widget .logo span i {
+.wpo-site-footer .About Us-widget .logo span i,
+.wpo-site-footer-s2 .About Us-widget .logo span i {
   position: absolute;
   left: 1px;
   top: 3px;
   font-size: 13px;
 }
-.wpo-site-footer .about-widget p,
-.wpo-site-footer-s2 .about-widget p {
+.wpo-site-footer .About Us-widget p,
+.wpo-site-footer-s2 .About Us-widget p {
   margin-bottom: 0.8em;
   font-weight: 400;
   line-height: 30px;
 }
-.wpo-site-footer .about-widget p:last-child,
-.wpo-site-footer-s2 .about-widget p:last-child {
+.wpo-site-footer .About Us-widget p:last-child,
+.wpo-site-footer-s2 .About Us-widget p:last-child {
   margin-bottom: 0;
 }
-.wpo-site-footer .about-widget ul,
-.wpo-site-footer-s2 .about-widget ul {
+.wpo-site-footer .About Us-widget ul,
+.wpo-site-footer-s2 .About Us-widget ul {
   overflow: hidden;
   padding-top: 10px;
 }
-.wpo-site-footer .about-widget ul li,
-.wpo-site-footer-s2 .about-widget ul li {
+.wpo-site-footer .About Us-widget ul li,
+.wpo-site-footer-s2 .About Us-widget ul li {
   font-size: 22px;
   float: left;
 }
-.wpo-site-footer .about-widget ul li a,
-.wpo-site-footer-s2 .about-widget ul li a {
+.wpo-site-footer .About Us-widget ul li a,
+.wpo-site-footer-s2 .About Us-widget ul li a {
   color: #fff;
   width: 36px;
   height: 36px;
@@ -4672,18 +4675,18 @@ wpo-hero-slider-s4
   border-radius: 50%;
   font-size: 18px;
 }
-.wpo-site-footer .about-widget ul li a:hover,
-.wpo-site-footer-s2 .about-widget ul li a:hover {
+.wpo-site-footer .About Us-widget ul li a:hover,
+.wpo-site-footer-s2 .About Us-widget ul li a:hover {
   background: #fff;
   color: #322e53;
 }
-.wpo-site-footer .about-widget ul li + li,
-.wpo-site-footer-s2 .about-widget ul li + li {
+.wpo-site-footer .About Us-widget ul li + li,
+.wpo-site-footer-s2 .About Us-widget ul li + li {
   margin-left: 20px;
 }
 @media screen and (max-width: 1600px) {
-  .wpo-site-footer .about-widget ul li + li,
-  .wpo-site-footer-s2 .about-widget ul li + li {
+  .wpo-site-footer .About Us-widget ul li + li,
+  .wpo-site-footer-s2 .About Us-widget ul li + li {
     margin-left: 10px;
   }
 }
@@ -4882,46 +4885,46 @@ wpo-hero-slider-s4
   top: 0;
 }
 
-/* 3.2 wpo-about-area */
-.wpo-about-area .wpo-about-img,
-.wpo-about-area-s2 .wpo-about-img,
-.wpo-about-area-s3 .wpo-about-img,
-.wpo-about-area-s4 .wpo-about-img,
-.wpo-about-area-s5 .wpo-about-img {
+/* 3.2 wpo-About Us-area */
+.wpo-About Us-area .wpo-About Us-img,
+.wpo-About Us-area-s2 .wpo-About Us-img,
+.wpo-About Us-area-s3 .wpo-About Us-img,
+.wpo-About Us-area-s4 .wpo-About Us-img,
+.wpo-About Us-area-s5 .wpo-About Us-img {
   position: relative;
   padding-left: 150px;
 }
-.wpo-about-area .wpo-about-img img,
-.wpo-about-area-s2 .wpo-about-img img,
-.wpo-about-area-s3 .wpo-about-img img,
-.wpo-about-area-s4 .wpo-about-img img,
-.wpo-about-area-s5 .wpo-about-img img {
+.wpo-About Us-area .wpo-About Us-img img,
+.wpo-About Us-area-s2 .wpo-About Us-img img,
+.wpo-About Us-area-s3 .wpo-About Us-img img,
+.wpo-About Us-area-s4 .wpo-About Us-img img,
+.wpo-About Us-area-s5 .wpo-About Us-img img {
   width: 100%;
 }
 @media (max-width: 1200px) {
-  .wpo-about-area .wpo-about-img,
-  .wpo-about-area-s2 .wpo-about-img,
-  .wpo-about-area-s3 .wpo-about-img,
-  .wpo-about-area-s4 .wpo-about-img,
-  .wpo-about-area-s5 .wpo-about-img {
+  .wpo-About Us-area .wpo-About Us-img,
+  .wpo-About Us-area-s2 .wpo-About Us-img,
+  .wpo-About Us-area-s3 .wpo-About Us-img,
+  .wpo-About Us-area-s4 .wpo-About Us-img,
+  .wpo-About Us-area-s5 .wpo-About Us-img {
     padding-left: 100px;
   }
 }
 @media (max-width: 991px) {
-  .wpo-about-area .wpo-about-img,
-  .wpo-about-area-s2 .wpo-about-img,
-  .wpo-about-area-s3 .wpo-about-img,
-  .wpo-about-area-s4 .wpo-about-img,
-  .wpo-about-area-s5 .wpo-about-img {
+  .wpo-About Us-area .wpo-About Us-img,
+  .wpo-About Us-area-s2 .wpo-About Us-img,
+  .wpo-About Us-area-s3 .wpo-About Us-img,
+  .wpo-About Us-area-s4 .wpo-About Us-img,
+  .wpo-About Us-area-s5 .wpo-About Us-img {
     padding-left: 0px;
     padding-top: 40px;
   }
 }
-.wpo-about-area .wpo-about-img .wpo-about-item,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-item,
-.wpo-about-area-s3 .wpo-about-img .wpo-about-item,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-item,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item {
+.wpo-About Us-area .wpo-About Us-img .wpo-About Us-item,
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-item,
+.wpo-About Us-area-s3 .wpo-About Us-img .wpo-About Us-item,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-item,
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item {
   background: #fffaf9;
   border-left: 2px solid #322e53;
   border-bottom: 2px solid #322e53;
@@ -4932,11 +4935,11 @@ wpo-hero-slider-s4
   left: -50px;
 }
 @media (max-width: 991px) {
-  .wpo-about-area .wpo-about-img .wpo-about-item,
-  .wpo-about-area-s2 .wpo-about-img .wpo-about-item,
-  .wpo-about-area-s3 .wpo-about-img .wpo-about-item,
-  .wpo-about-area-s4 .wpo-about-img .wpo-about-item,
-  .wpo-about-area-s5 .wpo-about-img .wpo-about-item {
+  .wpo-About Us-area .wpo-About Us-img .wpo-About Us-item,
+  .wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-item,
+  .wpo-About Us-area-s3 .wpo-About Us-img .wpo-About Us-item,
+  .wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-item,
+  .wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item {
     margin-left: auto;
     margin-right: 0px;
     left: auto;
@@ -4944,29 +4947,29 @@ wpo-hero-slider-s4
     margin-top: 30px;
   }
 }
-.wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-top,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-top,
-.wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-top,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-top,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top {
+.wpo-About Us-area .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top,
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top,
+.wpo-About Us-area-s3 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top,
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 @media (max-width: 991px) {
-  .wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-top,
-  .wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-top,
-  .wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-top,
-  .wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-top,
-  .wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top {
+  .wpo-About Us-area .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top,
+  .wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top,
+  .wpo-About Us-area-s3 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top,
+  .wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top,
+  .wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top {
     margin-bottom: 10px;
   }
 }
-.wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-thumb-img,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-thumb-img,
-.wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-thumb-img,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-thumb-img,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-thumb-img {
+.wpo-About Us-area .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img,
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img,
+.wpo-About Us-area-s3 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img,
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img {
   width: 60px;
   height: 60px;
   position: relative;
@@ -4976,37 +4979,37 @@ wpo-hero-slider-s4
   border-radius: 50%;
   margin-right: 20px;
 }
-.wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-thumb-img img,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-thumb-img img,
-.wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-thumb-img img,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-thumb-img img,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-thumb-img img {
+.wpo-About Us-area .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img img,
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img img,
+.wpo-About Us-area-s3 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img img,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img img,
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-thumb-img img {
   border-radius: 50%;
 }
-.wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info,
-.wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info {
+.wpo-About Us-area .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info,
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info,
+.wpo-About Us-area-s3 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info,
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info {
   display: flex;
   justify-content: space-between;
   flex-basis: 80%;
 }
 @media (max-width: 500px) {
-  .wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info,
-  .wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info,
-  .wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info,
-  .wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info,
-  .wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info {
+  .wpo-About Us-area .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info,
+  .wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info,
+  .wpo-About Us-area-s3 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info,
+  .wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info,
+  .wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info {
     display: block;
     flex-basis: 60%;
   }
 }
-.wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info h2,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info h2,
-.wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info h2,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info h2,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info h2 {
+.wpo-About Us-area .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info h2,
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info h2,
+.wpo-About Us-area-s3 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info h2,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info h2,
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info h2 {
   font-weight: 600;
   font-size: 22px;
   line-height: 28px;
@@ -5014,87 +5017,282 @@ wpo-hero-slider-s4
   margin-bottom: 3px;
   font-family: "Mulish", sans-serif;
 }
-.wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info span,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info span,
-.wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info span,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info span,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info span {
+.wpo-About Us-area .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info span,
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info span,
+.wpo-About Us-area-s3 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info span,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info span,
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info span {
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
 }
-.wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul,
-.wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul {
+.wpo-About
+  Us-area
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul,
+.wpo-About
+  Us-area-s2
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul,
+.wpo-About
+  Us-area-s3
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul,
+.wpo-About
+  Us-area-s4
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul,
+.wpo-About
+  Us-area-s5
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul {
   list-style: none;
   display: flex;
 }
-.wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li,
-.wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li {
+.wpo-About
+  Us-area
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul
+  li,
+.wpo-About
+  Us-area-s2
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul
+  li,
+.wpo-About
+  Us-area-s3
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul
+  li,
+.wpo-About
+  Us-area-s4
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul
+  li,
+.wpo-About
+  Us-area-s5
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul
+  li {
   color: #322e53;
 }
-.wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li + li,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li + li,
-.wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li + li,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li + li,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info .wpo-about-info-ratting ul li + li {
+.wpo-About
+  Us-area
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul
+  li
+  + li,
+.wpo-About
+  Us-area-s2
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul
+  li
+  + li,
+.wpo-About
+  Us-area-s3
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul
+  li
+  + li,
+.wpo-About
+  Us-area-s4
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul
+  li
+  + li,
+.wpo-About
+  Us-area-s5
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  .wpo-About
+  Us-info-ratting
+  ul
+  li
+  + li {
   margin-left: 2px;
 }
-.wpo-about-area .wpo-about-img .wpo-about-item .wpo-about-content p,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-item .wpo-about-content p,
-.wpo-about-area-s3 .wpo-about-img .wpo-about-item .wpo-about-content p,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-item .wpo-about-content p,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-content p {
+.wpo-About Us-area .wpo-About Us-img .wpo-About Us-item .wpo-About Us-content p,
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-content p,
+.wpo-About Us-area-s3 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-content p,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-content p,
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-content p {
   margin-bottom: 0;
   color: #323232;
   font-weight: 400;
   font-size: 20px;
   line-height: 33px;
 }
-.wpo-about-area .wpo-about-text,
-.wpo-about-area-s2 .wpo-about-text,
-.wpo-about-area-s3 .wpo-about-text,
-.wpo-about-area-s4 .wpo-about-text,
-.wpo-about-area-s5 .wpo-about-text {
+.wpo-About Us-area .wpo-About Us-text,
+.wpo-About Us-area-s2 .wpo-About Us-text,
+.wpo-About Us-area-s3 .wpo-About Us-text,
+.wpo-About Us-area-s4 .wpo-About Us-text,
+.wpo-About Us-area-s5 .wpo-About Us-text {
   padding-right: 50px;
 }
 @media (max-width: 1400px) {
-  .wpo-about-area .wpo-about-text,
-  .wpo-about-area-s2 .wpo-about-text,
-  .wpo-about-area-s3 .wpo-about-text,
-  .wpo-about-area-s4 .wpo-about-text,
-  .wpo-about-area-s5 .wpo-about-text {
+  .wpo-About Us-area .wpo-About Us-text,
+  .wpo-About Us-area-s2 .wpo-About Us-text,
+  .wpo-About Us-area-s3 .wpo-About Us-text,
+  .wpo-About Us-area-s4 .wpo-About Us-text,
+  .wpo-About Us-area-s5 .wpo-About Us-text {
     padding-right: 40px;
   }
 }
 @media (max-width: 1200px) {
-  .wpo-about-area .wpo-about-text,
-  .wpo-about-area-s2 .wpo-about-text,
-  .wpo-about-area-s3 .wpo-about-text,
-  .wpo-about-area-s4 .wpo-about-text,
-  .wpo-about-area-s5 .wpo-about-text {
+  .wpo-About Us-area .wpo-About Us-text,
+  .wpo-About Us-area-s2 .wpo-About Us-text,
+  .wpo-About Us-area-s3 .wpo-About Us-text,
+  .wpo-About Us-area-s4 .wpo-About Us-text,
+  .wpo-About Us-area-s5 .wpo-About Us-text {
     padding-right: 20px;
   }
 }
 @media (max-width: 991px) {
-  .wpo-about-area .wpo-about-text,
-  .wpo-about-area-s2 .wpo-about-text,
-  .wpo-about-area-s3 .wpo-about-text,
-  .wpo-about-area-s4 .wpo-about-text,
-  .wpo-about-area-s5 .wpo-about-text {
+  .wpo-About Us-area .wpo-About Us-text,
+  .wpo-About Us-area-s2 .wpo-About Us-text,
+  .wpo-About Us-area-s3 .wpo-About Us-text,
+  .wpo-About Us-area-s4 .wpo-About Us-text,
+  .wpo-About Us-area-s5 .wpo-About Us-text {
     padding-right: 0px;
   }
 }
-.wpo-about-area .wpo-about-text .wpo-about-title span.sub,
-.wpo-about-area-s2 .wpo-about-text .wpo-about-title span.sub,
-.wpo-about-area-s3 .wpo-about-text .wpo-about-title span.sub,
-.wpo-about-area-s4 .wpo-about-text .wpo-about-title span.sub,
-.wpo-about-area-s5 .wpo-about-text .wpo-about-title span.sub {
+.wpo-About Us-area .wpo-About Us-text .wpo-About Us-title span.sub,
+.wpo-About Us-area-s2 .wpo-About Us-text .wpo-About Us-title span.sub,
+.wpo-About Us-area-s3 .wpo-About Us-text .wpo-About Us-title span.sub,
+.wpo-About Us-area-s4 .wpo-About Us-text .wpo-About Us-title span.sub,
+.wpo-About Us-area-s5 .wpo-About Us-text .wpo-About Us-title span.sub {
   display: inline-block;
   font-size: 20px;
   line-height: 26px;
@@ -5102,11 +5300,11 @@ wpo-hero-slider-s4
   padding-left: 80px;
   position: relative;
 }
-.wpo-about-area .wpo-about-text .wpo-about-title span.sub:before,
-.wpo-about-area-s2 .wpo-about-text .wpo-about-title span.sub:before,
-.wpo-about-area-s3 .wpo-about-text .wpo-about-title span.sub:before,
-.wpo-about-area-s4 .wpo-about-text .wpo-about-title span.sub:before,
-.wpo-about-area-s5 .wpo-about-text .wpo-about-title span.sub:before {
+.wpo-About Us-area .wpo-About Us-text .wpo-About Us-title span.sub:before,
+.wpo-About Us-area-s2 .wpo-About Us-text .wpo-About Us-title span.sub:before,
+.wpo-About Us-area-s3 .wpo-About Us-text .wpo-About Us-title span.sub:before,
+.wpo-About Us-area-s4 .wpo-About Us-text .wpo-About Us-title span.sub:before,
+.wpo-About Us-area-s5 .wpo-About Us-text .wpo-About Us-title span.sub:before {
   position: absolute;
   left: 0;
   top: 50%;
@@ -5116,11 +5314,11 @@ wpo-hero-slider-s4
   content: "";
   background: #322e53;
 }
-.wpo-about-area .wpo-about-text .wpo-about-title h2,
-.wpo-about-area-s2 .wpo-about-text .wpo-about-title h2,
-.wpo-about-area-s3 .wpo-about-text .wpo-about-title h2,
-.wpo-about-area-s4 .wpo-about-text .wpo-about-title h2,
-.wpo-about-area-s5 .wpo-about-text .wpo-about-title h2 {
+.wpo-About Us-area .wpo-About Us-text .wpo-About Us-title h2,
+.wpo-About Us-area-s2 .wpo-About Us-text .wpo-About Us-title h2,
+.wpo-About Us-area-s3 .wpo-About Us-text .wpo-About Us-title h2,
+.wpo-About Us-area-s4 .wpo-About Us-text .wpo-About Us-title h2,
+.wpo-About Us-area-s5 .wpo-About Us-text .wpo-About Us-title h2 {
   font-weight: 400;
   font-size: 100px;
   line-height: 100%;
@@ -5128,48 +5326,48 @@ wpo-hero-slider-s4
   margin-bottom: 20px;
 }
 @media (max-width: 1400px) {
-  .wpo-about-area .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s2 .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s3 .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s4 .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s5 .wpo-about-text .wpo-about-title h2 {
+  .wpo-About Us-area .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s2 .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s3 .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s4 .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s5 .wpo-About Us-text .wpo-About Us-title h2 {
     font-size: 80px;
   }
 }
 @media (max-width: 1200px) {
-  .wpo-about-area .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s2 .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s3 .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s4 .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s5 .wpo-about-text .wpo-about-title h2 {
+  .wpo-About Us-area .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s2 .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s3 .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s4 .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s5 .wpo-About Us-text .wpo-About Us-title h2 {
     font-size: 55px;
     line-height: 55px;
     margin-bottom: 20px;
   }
 }
 @media (max-width: 450px) {
-  .wpo-about-area .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s2 .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s3 .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s4 .wpo-about-text .wpo-about-title h2,
-  .wpo-about-area-s5 .wpo-about-text .wpo-about-title h2 {
+  .wpo-About Us-area .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s2 .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s3 .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s4 .wpo-About Us-text .wpo-About Us-title h2,
+  .wpo-About Us-area-s5 .wpo-About Us-text .wpo-About Us-title h2 {
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 10px;
   }
 }
-.wpo-about-area .wpo-about-text .wpo-about-title h2 span,
-.wpo-about-area-s2 .wpo-about-text .wpo-about-title h2 span,
-.wpo-about-area-s3 .wpo-about-text .wpo-about-title h2 span,
-.wpo-about-area-s4 .wpo-about-text .wpo-about-title h2 span,
-.wpo-about-area-s5 .wpo-about-text .wpo-about-title h2 span {
+.wpo-About Us-area .wpo-About Us-text .wpo-About Us-title h2 span,
+.wpo-About Us-area-s2 .wpo-About Us-text .wpo-About Us-title h2 span,
+.wpo-About Us-area-s3 .wpo-About Us-text .wpo-About Us-title h2 span,
+.wpo-About Us-area-s4 .wpo-About Us-text .wpo-About Us-title h2 span,
+.wpo-About Us-area-s5 .wpo-About Us-text .wpo-About Us-title h2 span {
   color: #322e53;
 }
-.wpo-about-area .wpo-about-text h5,
-.wpo-about-area-s2 .wpo-about-text h5,
-.wpo-about-area-s3 .wpo-about-text h5,
-.wpo-about-area-s4 .wpo-about-text h5,
-.wpo-about-area-s5 .wpo-about-text h5 {
+.wpo-About Us-area .wpo-About Us-text h5,
+.wpo-About Us-area-s2 .wpo-About Us-text h5,
+.wpo-About Us-area-s3 .wpo-About Us-text h5,
+.wpo-About Us-area-s4 .wpo-About Us-text h5,
+.wpo-About Us-area-s5 .wpo-About Us-text h5 {
   font-weight: normal;
   font-family: "Mulish", sans-serif;
   font-size: 22px;
@@ -5179,19 +5377,19 @@ wpo-hero-slider-s4
   margin-bottom: 25px;
 }
 @media (max-width: 991px) {
-  .wpo-about-area .wpo-about-text h5,
-  .wpo-about-area-s2 .wpo-about-text h5,
-  .wpo-about-area-s3 .wpo-about-text h5,
-  .wpo-about-area-s4 .wpo-about-text h5,
-  .wpo-about-area-s5 .wpo-about-text h5 {
+  .wpo-About Us-area .wpo-About Us-text h5,
+  .wpo-About Us-area-s2 .wpo-About Us-text h5,
+  .wpo-About Us-area-s3 .wpo-About Us-text h5,
+  .wpo-About Us-area-s4 .wpo-About Us-text h5,
+  .wpo-About Us-area-s5 .wpo-About Us-text h5 {
     font-size: 18px;
   }
 }
-.wpo-about-area .wpo-about-text .btns,
-.wpo-about-area-s2 .wpo-about-text .btns,
-.wpo-about-area-s3 .wpo-about-text .btns,
-.wpo-about-area-s4 .wpo-about-text .btns,
-.wpo-about-area-s5 .wpo-about-text .btns {
+.wpo-About Us-area .wpo-About Us-text .btns,
+.wpo-About Us-area-s2 .wpo-About Us-text .btns,
+.wpo-About Us-area-s3 .wpo-About Us-text .btns,
+.wpo-About Us-area-s4 .wpo-About Us-text .btns,
+.wpo-About Us-area-s5 .wpo-About Us-text .btns {
   margin-top: 35px;
 }
 
@@ -6128,49 +6326,49 @@ wpo-hero-slider-s4
 /*======================================
  5. Home-style-2 
  =======================================*/
-/* 5.1 wpo-about-area-s2 */
-.wpo-about-area-s2 .wpo-about-img,
-.wpo-about-area-s4 .wpo-about-img {
+/* 5.1 wpo-About Us-area-s2 */
+.wpo-About Us-area-s2 .wpo-About Us-img,
+.wpo-About Us-area-s4 .wpo-About Us-img {
   padding-left: 0;
   padding-right: 0px;
   margin-left: -60px;
   left: -60px;
 }
 @media (max-width: 1400px) {
-  .wpo-about-area-s2 .wpo-about-img,
-  .wpo-about-area-s4 .wpo-about-img {
+  .wpo-About Us-area-s2 .wpo-About Us-img,
+  .wpo-About Us-area-s4 .wpo-About Us-img {
     margin-left: -20px;
     left: -20px;
   }
 }
 @media (max-width: 1200px) {
-  .wpo-about-area-s2 .wpo-about-img,
-  .wpo-about-area-s4 .wpo-about-img {
+  .wpo-About Us-area-s2 .wpo-About Us-img,
+  .wpo-About Us-area-s4 .wpo-About Us-img {
     margin-left: -30px;
     left: 0;
   }
 }
 @media (max-width: 991px) {
-  .wpo-about-area-s2 .wpo-about-img,
-  .wpo-about-area-s4 .wpo-about-img {
+  .wpo-About Us-area-s2 .wpo-About Us-img,
+  .wpo-About Us-area-s4 .wpo-About Us-img {
     margin-left: 0px;
     left: 0px;
     padding-top: 0;
     padding-bottom: 40px;
   }
 }
-.wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap {
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-img-wrap,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap {
   display: flex;
 }
 @media (max-width: 575px) {
-  .wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap,
-  .wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap {
+  .wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-img-wrap,
+  .wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap {
     display: block;
   }
 }
-.wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-item,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item {
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item {
   background: #fff;
   border: 0;
   box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
@@ -6182,56 +6380,124 @@ wpo-hero-slider-s4
   left: 0px;
 }
 @media (max-width: 1200px) {
-  .wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-thumb-img,
-  .wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-thumb-img {
+  .wpo-About
+    Us-area-s2
+    .wpo-About
+    Us-img
+    .wpo-About
+    Us-img-wrap
+    .wpo-About
+    Us-item
+    .wpo-About
+    Us-top
+    .wpo-About
+    Us-thumb-img,
+  .wpo-About
+    Us-area-s4
+    .wpo-About
+    Us-img
+    .wpo-About
+    Us-img-wrap
+    .wpo-About
+    Us-item
+    .wpo-About
+    Us-top
+    .wpo-About
+    Us-thumb-img {
     margin-right: 10px;
   }
 }
-.wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-info,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-info {
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info {
   flex-basis: 70%;
 }
 @media (max-width: 1200px) {
-  .wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-info,
-  .wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-info {
+  .wpo-About
+    Us-area-s2
+    .wpo-About
+    Us-img
+    .wpo-About
+    Us-img-wrap
+    .wpo-About
+    Us-item
+    .wpo-About
+    Us-top
+    .wpo-About
+    Us-info,
+  .wpo-About
+    Us-area-s4
+    .wpo-About
+    Us-img
+    .wpo-About
+    Us-img-wrap
+    .wpo-About
+    Us-item
+    .wpo-About
+    Us-top
+    .wpo-About
+    Us-info {
     flex-basis: 70%;
   }
-  .wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-info h2,
-  .wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-info h2 {
+  .wpo-About
+    Us-area-s2
+    .wpo-About
+    Us-img
+    .wpo-About
+    Us-img-wrap
+    .wpo-About
+    Us-item
+    .wpo-About
+    Us-top
+    .wpo-About
+    Us-info
+    h2,
+  .wpo-About
+    Us-area-s4
+    .wpo-About
+    Us-img
+    .wpo-About
+    Us-img-wrap
+    .wpo-About
+    Us-item
+    .wpo-About
+    Us-top
+    .wpo-About
+    Us-info
+    h2 {
     font-size: 18px;
   }
 }
-.wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-content p,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-content p {
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item .wpo-About Us-content p,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item .wpo-About Us-content p {
   font-size: 18px;
 }
 @media (max-width: 1200px) {
-  .wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-content p,
-  .wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-content p {
+  .wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item .wpo-About Us-content p,
+  .wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item .wpo-About Us-content p {
     font-size: 16px;
     line-height: 25px;
   }
 }
 @media (max-width: 1200px) {
-  .wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-item,
-  .wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item {
+  .wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item,
+  .wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item {
     padding: 10px;
   }
 }
-.wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-img-l img,
-.wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-img-r img,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-img-l img,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-img-r img {
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-img-l img,
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-img-r img,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-img-l img,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-img-r img {
   border-radius: 15px;
 }
-.wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-img-l,
-.wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-img-l {
+.wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-img-l,
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-img-l {
   padding-right: 20px;
   padding-top: 80px;
 }
 @media (max-width: 575px) {
-  .wpo-about-area-s2 .wpo-about-img .wpo-about-img-wrap .wpo-about-img-l,
-  .wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-img-l {
+  .wpo-About Us-area-s2 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-img-l,
+  .wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-img-l {
     padding-right: 0;
     padding-top: 0;
   }
@@ -6658,17 +6924,17 @@ wpo-hero-slider-s4
 /*======================================
  6. Home-style-3 
  =======================================*/
-/* 6.1 wpo-about-area-s3  */
-.wpo-about-area-s3 .wpo-about-img {
+/* 6.1 wpo-About Us-area-s3  */
+.wpo-About Us-area-s3 .wpo-About Us-img {
   padding-left: 80px;
 }
 @media (max-width: 1400px) {
-  .wpo-about-area-s3 .wpo-about-img {
+  .wpo-About Us-area-s3 .wpo-About Us-img {
     padding-left: 30px;
   }
 }
 @media (max-width: 991px) {
-  .wpo-about-area-s3 .wpo-about-img {
+  .wpo-About Us-area-s3 .wpo-About Us-img {
     padding-left: 0;
   }
 }
@@ -6676,40 +6942,88 @@ wpo-hero-slider-s4
 /*======================================
  7. Home-style-4 
  =======================================*/
-/* 7.1 wpo-about-area-s4  */
-.wpo-about-area-s4,
-.wpo-about-area-s5 {
+/* 7.1 wpo-About Us-area-s4  */
+.wpo-About Us-area-s4,
+.wpo-About Us-area-s5 {
   background: #212428;
   position: relative;
 }
-.wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-img-wrap .wpo-about-item {
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item,
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item {
   background: linear-gradient(145deg, #1f2226, #22262a);
 }
-.wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-info h2,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-info h2 {
+.wpo-About
+  Us-area-s4
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-img-wrap
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  h2,
+.wpo-About
+  Us-area-s5
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-img-wrap
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  h2 {
   color: #fff;
 }
-.wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-info span,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-top .wpo-about-info span {
+.wpo-About
+  Us-area-s4
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-img-wrap
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  span,
+.wpo-About
+  Us-area-s5
+  .wpo-About
+  Us-img
+  .wpo-About
+  Us-img-wrap
+  .wpo-About
+  Us-item
+  .wpo-About
+  Us-top
+  .wpo-About
+  Us-info
+  span {
   color: #cbcbcb;
 }
-.wpo-about-area-s4 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-content p,
-.wpo-about-area-s5 .wpo-about-img .wpo-about-img-wrap .wpo-about-item .wpo-about-content p {
+.wpo-About Us-area-s4 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item .wpo-About Us-content p,
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item .wpo-About Us-content p {
   color: #cbcbcb;
 }
-.wpo-about-area-s4 .wpo-about-text .wpo-about-title h2,
-.wpo-about-area-s5 .wpo-about-text .wpo-about-title h2 {
+.wpo-About Us-area-s4 .wpo-About Us-text .wpo-About Us-title h2,
+.wpo-About Us-area-s5 .wpo-About Us-text .wpo-About Us-title h2 {
   color: #fff;
 }
-.wpo-about-area-s4 .wpo-about-text h5,
-.wpo-about-area-s5 .wpo-about-text h5 {
+.wpo-About Us-area-s4 .wpo-About Us-text h5,
+.wpo-About Us-area-s5 .wpo-About Us-text h5 {
   color: #ddd;
 }
-.wpo-about-area-s4 .wpo-about-text p,
-.wpo-about-area-s4 .wpo-about-text .btns ul li.video-text a,
-.wpo-about-area-s5 .wpo-about-text p,
-.wpo-about-area-s5 .wpo-about-text .btns ul li.video-text a {
+.wpo-About Us-area-s4 .wpo-About Us-text p,
+.wpo-About Us-area-s4 .wpo-About Us-text .btns ul li.video-text a,
+.wpo-About Us-area-s5 .wpo-About Us-text p,
+.wpo-About Us-area-s5 .wpo-About Us-text .btns ul li.video-text a {
   color: #cbcbcb;
 }
 
@@ -6837,17 +7151,17 @@ wpo-hero-slider-s4
   padding: 80px 0 0;
 }
 
-/* 8.2 wpo-about-area-s5 */
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item {
+/* 8.2 wpo-About Us-area-s5 */
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item {
   background-color: #22262a;
 }
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info h2 {
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info h2 {
   color: #fff;
 }
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-top .wpo-about-info span {
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-top .wpo-About Us-info span {
   color: #cbcbcb;
 }
-.wpo-about-area-s5 .wpo-about-img .wpo-about-item .wpo-about-content p {
+.wpo-About Us-area-s5 .wpo-About Us-img .wpo-About Us-item .wpo-About Us-content p {
   color: #cbcbcb;
 }
 
@@ -6867,7 +7181,7 @@ wpo-hero-slider-s4
 }
 
 /*==========================================
-9. wpo-about-section
+9. wpo-About Us-section
 ===========================================*/
 .wpo-fun-fact-section-s2 {
   text-align: center;
@@ -8898,7 +9212,7 @@ wpo-hero-slider-s4
     width: 100%;
   }
 
-  .lawyer-about.pt-150 {
+  .lawyer-About Us.pt-150 {
     padding-top: 100px !important;
   }
 }

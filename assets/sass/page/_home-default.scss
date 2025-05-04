@@ -1,11 +1,11 @@
-/* 3.2 wpo-about-area */
+/* 3.2 wpo-About Us-area */
 
-.wpo-about-area,
-.wpo-about-area-s2,
-.wpo-about-area-s3,
-.wpo-about-area-s4,
-.wpo-about-area-s5{
-	.wpo-about-img {
+.wpo-About Us-area,
+.wpo-About Us-area-s2,
+.wpo-About Us-area-s3,
+.wpo-About Us-area-s4,
+.wpo-About Us-area-s5{
+	.wpo-About Us-img {
 		position: relative;
 		padding-left: 150px;
 
@@ -22,7 +22,7 @@
 			padding-top: 40px;
 		}
 
-		.wpo-about-item {
+		.wpo-About Us-item {
 			background: #FFFAF9;
 			border-left: 2px solid $theme-primary-color;
 			border-bottom: 2px solid $theme-primary-color;
@@ -40,7 +40,7 @@
 				margin-top: 30px;
 			}
 
-			.wpo-about-top {
+			.wpo-About Us-top {
 				display: flex;
 				align-items: center;
 				margin-bottom: 10px;
@@ -49,7 +49,7 @@
 					margin-bottom: 10px;
 				}
 
-				.wpo-about-thumb-img {
+				.wpo-About Us-thumb-img {
 					width: 60px;
 					height: 60px;
 					position: relative;
@@ -65,7 +65,7 @@
 
 				}
 
-				.wpo-about-info {
+				.wpo-About Us-info {
 					display: flex;
 					justify-content: space-between;
 					flex-basis: 80%;
@@ -90,7 +90,7 @@
 						line-height: 19px;
 					}
 
-					.wpo-about-info-ratting {
+					.wpo-About Us-info-ratting {
 						ul {
 							list-style: none;
 							display: flex;
@@ -109,7 +109,7 @@
 
 			}
 
-			.wpo-about-content {
+			.wpo-About Us-content {
 				p {
 					margin-bottom: 0;
 					color: #323232;
@@ -122,7 +122,7 @@
 
 	}
 
-	.wpo-about-text {
+	.wpo-About Us-text {
 		padding-right: 50px;
 
 		@media(max-width:1400px) {
@@ -137,7 +137,7 @@
 			padding-right: 0px;
 		}
 
-		.wpo-about-title {
+		.wpo-About Us-title {
 			span.sub {
 				display: inline-block;
 				font-size: 20px;

@@ -2,17 +2,17 @@
  7. Home-style-4 
  =======================================*/
 
- /* 7.1 wpo-about-area-s4  */
+ /* 7.1 wpo-About Us-area-s4  */
 
- .wpo-about-area-s4,
- .wpo-about-area-s5{
+ .wpo-About Us-area-s4,
+ .wpo-About Us-area-s5{
 	 background: $black-bg-color;
 	 position: relative;
 
-	 .wpo-about-img .wpo-about-img-wrap .wpo-about-item{
+	 .wpo-About Us-img .wpo-About Us-img-wrap .wpo-About Us-item{
 		 background: linear-gradient(145deg, $black-bg-color-s2, $black-bg-color-s3);
 
-		.wpo-about-top .wpo-about-info{
+		.wpo-About Us-top .wpo-About Us-info{
 			h2{
 	          color: $white;
 			}
@@ -21,15 +21,15 @@
 			}
 
 		} 
-		.wpo-about-content{
+		.wpo-About Us-content{
 			p{
 				color: $black-section-text-color;
 			}
 		}
 	}
 
-	 .wpo-about-text{
-		 .wpo-about-title{
+	 .wpo-About Us-text{
+		 .wpo-About Us-title{
 			 h2{
 			   color: $white;
 			 }
