@@ -1,10 +1,10 @@
 <?php
 
-	$to = "wpoceanmarketing@gmail.com"; // this is your Email address
-	$from  = $_POST['email']; // this is the sender's Email address
+	$to = "rasihozturk000@gmail.com"; 
+	$from  = $_POST['email']; 
 	$sender_name = $_POST['name'];
 	$adress = $_POST['adress'];
-	$service = $_POST['service'];
+	$service = $_POST['Subject'];
 	$note = $_POST['note'];
 
 	$subject = "Form submission";

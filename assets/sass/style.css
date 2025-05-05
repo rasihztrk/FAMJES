@@ -835,8 +835,8 @@ img {
 }
 
 .wpo-page-title {
-  background: url(../images/page-title.jpg) no-repeat center top/cover;
-  min-height: 450px;
+  background: url("../images/banner.webp") no-repeat center center / cover;
+  min-height: 280px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -2953,7 +2953,7 @@ img {
   }
 }
 .wpo-site-header .navbar-header .navbar-brand img {
-  max-width: 110px;
+  max-width: 170px;
 }
 @media (max-width: 991px) {
   .wpo-site-header .navbar-collapse.collapse {
