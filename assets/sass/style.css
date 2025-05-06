@@ -115,6 +115,14 @@ Version:        1.0.0
   overflow: hidden;
 }
 
+.textPolicy {
+  padding: 60px 60px;
+}
+
+.footer-contact-w {
+  color: white;
+}
+
 .fullsize-video-bg:before {
   content: "";
   background: rgba(114, 45, 0, 0.35);
@@ -848,6 +856,10 @@ img {
     min-height: 250px;
   }
 }
+.textColor-B {
+  color: black;
+}
+
 .wpo-page-title:before {
   position: absolute;
   left: 0;
@@ -3354,8 +3366,14 @@ img {
   .wpo-header-style-5 #navbar {
     justify-content: center;
   }
-}
 
+}
+@media (max-width: 992px) {
+  .wpo-header-style-4 #navbar > ul > li > a,
+  .wpo-header-style-5 #navbar > ul > li > a {
+    color: white !important;
+  }
+}
 /*--------------------------------------------------------------
 3. content
 --------------------------------------------------------------*/
@@ -5523,6 +5541,7 @@ wpo-hero-slider-s4
   border-radius: 10px;
   padding: 60px 40px;
   margin-bottom: 30px;
+  min-height: 400px;
 }
 @media (max-width: 1200px) {
   .wpo-service-area .wpo-service-item,
@@ -10633,6 +10652,7 @@ wpo-hero-slider-s4
   text-align: center;
   box-shadow: 0px 5px 15px 0px rgba(62, 65, 159, 0.1);
   padding: 40px;
+  min-height: 305px;
 }
 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon {
   width: 85px;
