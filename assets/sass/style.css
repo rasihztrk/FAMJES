@@ -10521,6 +10521,10 @@ wpo-hero-slider-s4
     font-size: 25px;
     font-size: 1.3888888889rem;
   }
+  .wpo-site-footer .contact-ft ul li {
+    display: block;
+    text-align: center;
+  }
 }
 .wpo-contact-pg-section form input,
 .wpo-contact-pg-section form select,
