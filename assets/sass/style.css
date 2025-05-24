@@ -91,6 +91,41 @@ Version:        1.0.0
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Teko:wght@300;400;500;600;700&display=swap");
 /* 1.1	Theme Reset Style */
 
+.language-flags {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 5px;
+}
+
+.lang-flag {
+  text-decoration: none;
+  font-size: 13px;
+  color: #333;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  background-color: white;
+}
+
+.lang-flag:hover {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.lang-flag.active {
+  font-weight: bold;
+  border: 1px solid #007bff;
+  color: #007bff;
+  background-color: #eef5ff;
+}
+
+.mobileLanguage {
+  display: none;
+}
+
 #video-viewport {
   position: absolute;
   top: 0;
@@ -1096,9 +1131,35 @@ img {
 }
 
 @media screen and (max-width: 992px) {
+  .language-flags {
+    display: none;
+  }
+
+  .mobileLanguage {
+    display: flex;
+    padding: 15px 30px;
+    gap: 20px;
+  }
+
+  .mobileLanguage a {
+    color: white;
+    padding: 10px !important;
+    margin: 0px;
+    line-height: 20px;
+  }
+
+    .mobileLanguage .active {
+    border-bottom: 1px solid white;
+  }
+
   .wpo-About Us-title h2 br {
     display: none;
     text-align: center;
+  }
+
+  .wpo-site-footer .widget-title h3,
+  .wpo-site-footer-s2 .widget-title h3 {
+    padding-bottom: 30px !important;
   }
 
   .wpo-site-footer .contact-ft ul li {
@@ -1166,7 +1227,7 @@ img {
   }
   .Us-area .wpo-About {
     margin-bottom: 30px;
-  } 
+  }
 }
 @media (max-width: 991px) {
   .blog-sidebar {
@@ -1174,7 +1235,7 @@ img {
     max-width: 400px;
   }
   .wpo-site-footer .contact-ft ul li:last-child {
-    padding-bottom: 0px  !important;
+    padding-bottom: 0px !important;
   }
 }
 @media (max-width: 767px) {
@@ -2290,10 +2351,6 @@ img {
   margin-right: 8px;
 }
 
-.wpo-site-header .header-right {
-  display: none;
-}
-
 .wpo-site-header .header-right .close-form .theme-btn,
 .wpo-site-header .header-right .close-form .view-cart-btn {
   padding: 10px 25px;
@@ -3366,7 +3423,6 @@ img {
   .wpo-header-style-5 #navbar {
     justify-content: center;
   }
-
 }
 @media (max-width: 992px) {
   .wpo-header-style-4 #navbar > ul > li > a,
@@ -4728,6 +4784,17 @@ wpo-hero-slider-s4
   .wpo-site-footer .widget-title,
   .wpo-site-footer-s2 .widget-title {
     margin-bottom: 0px;
+  }
+  .wpo-site-footer .widget-title h3,
+  .wpo-site-footer-s2 .widget-title h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    font-family: "Teko", sans-serif;
+    padding-bottom: 30px;
   }
 }
 .wpo-site-footer .widget-title h3,
